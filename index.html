@@ -5,6 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CV</title>
+    <link
+      rel="stylesheet"
+      href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/styles/monokai-sublime.min.css"
+    />
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script>
+    <script>
+      hljs.initHighlightingOnLoad();
+    </script>
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
@@ -195,7 +203,8 @@
           <div class="section-title">
             <h2>Code</h2>
           </div>
-          <pre>
+          <pre style="white-space: pre-line">
+            <code>
             function isPrime(num) {
               let possibleDivisors = Math.round(Math.pow(num,0.5))
               if(num&lt;=1){
@@ -209,6 +218,7 @@
               } 
               return true;
               }
+            </code>
           </pre>
         </section>
         <section class="section" id="Courses">
