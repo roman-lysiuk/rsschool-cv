@@ -8,6 +8,156 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
+    <header class="header">
+      <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-item"><a class="nav-link" href="">contacts </a></li>
+          <li class="nav-item"><a class="nav-link" href="">About me </a></li>
+          <li class="nav-item"><a class="nav-link" href="">skills </a></li>
+          <li class="nav-item"><a class="nav-link" href="">code </a></li>
+          <li class="nav-item"><a class="nav-link" href="">courses </a></li>
+          <li class="nav-item"><a class="nav-link" href="">projects </a></li>
+          <li class="nav-item"><a class="nav-link" href="">education </a></li>
+          <li class="nav-item"><a class="nav-link" href="">language</a></li>
+        </ul>
+      </nav>
+        <div class="header__title">
+          <div class="header__name">Roman Lysiuk</div>
+          <div class="header-profession">frontend developer</div>
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <div class="container">
+
+        <section class="section" id="profile">
+          <div class="profile-image">
+            <img src="assets/images/photo.jpg" alt="my-photo" />
+          </div>
+          <div class="section-title">
+            <h1>Roman Lysiuk</h1>
+          </div>
+          <div class="section-subtitle">
+            <h3>frontend developer</h3>
+          </div>
+        </section>
+        <section class="section" id="About-me">
+          <div class="section-title">
+            <h2>About me</h2>
+            <p>My name is Roman and I am 26 years old. My main specialty is a cook, pastry chef. I have been working in this area for about 9 years.
+
+              This profession has helped me develop skills such as:
+              
+              ability to work in stressful situations
+              keep many processes under control in parallel.
+              I want to learn how to program in order to change my current profession.</p>
+          </div>
+        </section>
+        <section class="section" id="Contacts">
+          <div class="section-title">
+            <h2>Contacts</h2>
+          </div>
+          <ul>
+             <li>
+              <img src="assets/icons/gmail.png" alt="gmail">
+              <span>Email :</span>
+               <a href="mailto:gekalo1025@gmail.com">gekalo1025@gmail.com</a>
+             </li>
+             <li>
+              <img src="assets/icons/phone.png" alt="phone">
+              <span>Phone :</span>
+              <a href="tel:+380662351408">+380662351408</a>
+             </li>
+             <li>
+              <img src="assets/icons/telegram.png" alt="Telegram">
+              <span>Telegram :</span>
+               <a href="https://t.me/roma_lysiuk">@roma_lysiuk</a>
+             </li>
+             <li>
+              <img src="assets/icons/discord.png" alt="discord">
+              <span>Discord :</span>
+               <a href="https://discord.com/users/533262748034007041/">gekalo1025</a>
+             </li>
+
+
+
+          </ul>
+
+        </section>
+        <section class="section" id="Skills">
+          <div class="section-title">
+            <h2>Skills</h2>
+          </div>
+          <ul>
+            <li>HTML5, CSS3</li>
+            <li>Git, GitHub</li>
+            <li>VS Code</li>
+            <li>Adobe Photoshop, Illustrator</li>
+          </ul>
+        </section>
+        <section class="section" id="Code">
+          <div class="section-title">
+            <h2>Code</h2>
+          </div>
+          <pre>
+            function isPrime(num) {
+              let possibleDivisors = Math.round(Math.pow(num,0.5))
+              if(num<=1){
+                return false;
+              }
+              for(let i=2;i<=possibleDivisors;i++){
+                if(num % i ===0){
+                  return false;
+                  }
+                
+              } 
+              return true;
+              }
+          </pre>
+        </section>
+        <section class="section" id="Courses">
+          <div class="section-title">
+            <h2>Courses</h2>
+          </div>
+          <ul>
+            <li>RSS School Stage 0, JavaScript/Front-end</li>
+            <li>Course at coursera.org HSE University "Financial Markets and Institutions"</li>
+            <li>Course at coursera.org Saint Petersburg State University ""Enterprise economy</li>
+          </ul>
+        </section>
+        <section class="section" id="Projects">
+          <div class="section-title">
+            <h2>Projects</h2>
+          </div>
+          <ul>
+            <li>
+              <span>project Momentum</span>
+              <a href="https://rolling-scopes-school.github.io/gekalo1025-JSFEPRESCHOOL2022Q2/momentum/">Momentum</a>
+            </li>
+            <li>
+              <span>project Travel</span>
+              <a href="https://rolling-scopes-school.github.io/gekalo1025-JSFEPRESCHOOL2022Q2/Travel/">Travel</a>
+            </li>
+          </ul>
+        </section>
+        <section class="section" id="Education">
+          <div class="section-title">
+            <h2>Education</h2>
+          </div>
+        </section>
+        <section class="section" id="Language">
+          <div class="section-title">
+            <h2>Language</h2>
+          </div>
+          <ul>
+            <li>English - A1</li>
+            <li>Russian - Native</li>
+            <li>Ukrainian - Intermediate</li>
+          </ul>
+        </section>
+      </div>
+    </main>
+    <footer class="footer"></footer>
     <script src="app.js"></script>
   </body>
 </html>
